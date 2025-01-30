@@ -1,7 +1,5 @@
 # LAB-Google-Sheets-Foundations-of-Google-Sheets-for-Data-Analysis
 
-![Google Sheets Image](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Google_Sheets_logo_%282014-2020%29.svg/800px-Google_Sheets_logo_%282014-2020%29.svg.png)
-
 ## Introduction
 
 > ***Note:*** _This can be a pair programming activity or done independently._
