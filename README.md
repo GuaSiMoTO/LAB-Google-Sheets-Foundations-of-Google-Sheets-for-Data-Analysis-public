@@ -1,7 +1,5 @@
 # LAB-Google-Sheets-Foundations-of-Google-Sheets-for-Data-Analysis
 
-![PILL_WHITE](https://github.com/user-attachments/assets/c04c5b8e-bc95-4e32-8213-613e82ebc5a8)
-
 ## Introduction
 
 > ***Note:*** _This can be a pair programming activity or done independently._
