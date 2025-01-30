@@ -27,50 +27,23 @@ Alright, let’s get started by getting a sense of what our data looks like. Thi
 ## Iteration 2: Identify and Remove Duplicates
 - **Find Duplicates**: Use the combination of 'Name' and 'Email' columns to find duplicates.
 - **Delete Duplicate Entries**:
-  - Select your data range.
-  - Click on `Data` > `Data cleanup` > `Remove duplicates`.
-  - Ensure that all relevant columns are selected to avoid removing non-duplicate data that only matches in name and email.
 
 ## Iteration 3: Department Name Standardization
 - **Replace 'HR' with 'Human Resources'**: In the 'Department' column, replace all instances of 'HR' with 'Human Resources'.
-  - Use `CTRL + H` (or `CMD + H` on Mac) to open the "Find and Replace" tool.
-  - Enter "HR" in the "Find" box and "Human Resources" in the "Replace with" box.
-  - Click "Replace All" to apply this change throughout the entire 'Department' column.
 
 ## Iteration 4: Date Component Extraction
 - **Separate Day, Month, and Year**: Split the 'Date of Joining' into separate columns for day, month, and year.
-  - Use `=DAY(A2)` to extract the day.
-  - Use `=MONTH(A2)` to extract the month.
-  - Use `=YEAR(A2)` to extract the year.
-  - Add these as new columns labeled 'Join Day', 'Join Month', and 'Join Year' respectively.
 
 ## Iteration 5: Handling Missing Values
 - **Fill Missing Salaries**: For missing salaries, calculate the average salary per department and use that value to fill the missing entries. Use:
-  - `=AVERAGEIF(B:B, B2, C:C)` where B is the department column and C is the salary column.
-  - Use `=IF(ISBLANK(C2), VLOOKUP(B2, Salary_Avg_Table, 2, FALSE), C2)` to fill missing values.
 - **Address Missing Performance Scores**: For missing 'Performance Score' values, use the median of the respective department.
-  - Use `=MEDIAN(FILTER(D:D, B:B=B2))` where B is the department column and D is the performance score column.
 
 ## Iteration 6: Data Validation
 - **Validate Age Range**: Ensure that employee ages are within a reasonable range (e.g., between 18 and 65).
-  - Select the age column.
-  - Click `Data` > `Data validation`.
-  - Set criteria to "Number" between "18" and "65".
 - **Email Format Check**: Implement data validation rules to verify that email addresses contain an '@' symbol and a dot.
-  - Use `=IF(AND(ISNUMBER(SEARCH("@", A2)), ISNUMBER(SEARCH(".", A2))), "Valid", "Invalid")`.
 
 ## Iteration 7: Data Analysis Using Lookup Functions
-- **Salary Analysis by Department**: Use `VLOOKUP` or `QUERY` to create a table showing the salary range in each department.
-  - Find the minimum salary: `=MINIFS(C:C, B:B, "HR")`.
-  - Find the maximum salary: `=MAXIFS(C:C, B:B, "HR")`.
-  - Find the average salary: `=AVERAGEIFS(C:C, B:B, "HR")`.
-- **Retrieve Specific Data**: Use `XLOOKUP` to find specific information, such as the email and joining date of employees with a 'Performance Score' above 4.
-  - Example: `=FILTER(A:B, C:C>4)`.
-
-## Iteration 8: Data Summarization and Visualization
-- **Create a Summary Table**: Use functions like `SUMIF` and `COUNTIF` to summarize data such as the total number of employees per department and average performance score.
-  - `=COUNTIF(B:B, "HR")` to count employees in HR.
-  - `=AVERAGEIF(B:B, "HR", D:D)` to find the average performance score in HR.
+- **Salary Analysis by Department**: Use `VLOOKUP` to create a table showing the salary range in each department.
 
 ## Bonus
 
