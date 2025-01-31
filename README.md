@@ -23,27 +23,55 @@ Alright, let’s get started by getting a sense of what our data looks like. Thi
    - Start by importing the provided `sample_data.csv` file into Google Sheets.
    - Take a good look at the data to understand its structure, content, and quality.
    - Identify the types of data in each column (e.g., numeric, text, date). This step is crucial to get a sense of what you're dealing with.
+   - Take note of any apparent inconsistencies, errors, or missing values.
 
 ## Iteration 2: Identify and Remove Duplicates
-- **Find Duplicates**: Use the combination of 'Name' and 'Email' columns to find duplicates.
-- **Delete Duplicate Entries**:
+Duplicate records can lead to inaccurate analysis and reporting. Your next step is to ensure that no duplicate entries are present in the dataset.
+1. **Find Duplicates**: 
+   - Use a combination of the 'Name' and 'Email' columns to identify duplicate entries.
+   - Highlight these duplicates for review.
+2. **Delete Duplicate Entries**: Once identified, remove the redundant records while preserving at least one unique entry per employee.
 
 ## Iteration 3: Department Name Standardization
-- **Replace 'HR' with 'Human Resources'**: In the 'Department' column, replace all instances of 'HR' with 'Human Resources'.
+Data consistency is crucial, especially when working with categorical variables.
+- Locate the 'Department' column and identify any inconsistencies in naming conventions.
+- Specifically, replace all instances of 'HR' with 'Human Resources' to maintain uniformity.
 
 ## Iteration 4: Date Component Extraction
-- **Separate Day, Month, and Year**: Split the 'Date of Joining' into separate columns for day, month, and year.
+Dates are often useful for analysis, especially when broken down into individual components.
+1. Extract Day, Month, and Year:
+   - Take the 'Date of Joining' column and split it into three separate columns: 'Day', 'Month', and 'Year'.
+   - Ensure the extracted values remain in the correct format.
 
 ## Iteration 5: Handling Missing Values
-- **Fill Missing Salaries**: For missing salaries, calculate the average salary per department and use that value to fill the missing entries. Use:
-- **Address Missing Performance Scores**: For missing 'Performance Score' values, use the median of the respective department.
+Missing data can lead to gaps in analysis. It is important to address these missing values logically.
+1. **Fill Missing Salaries**:
+- Identify missing values in the 'Salary' column.
+
+- Compute the average salary per department and use these averages to fill in the missing values accordingly.
+2. **Address Missing Performance Scores**:
+- Locate missing values in the 'Performance Score' column.
+- Instead of using the mean, calculate and apply the median performance score within each department to fill in the gaps.
 
 ## Iteration 6: Data Validation
-- **Validate Age Range**: Ensure that employee ages are within a reasonable range (e.g., between 18 and 65).
-- **Email Format Check**: Implement data validation rules to verify that email addresses contain an '@' symbol and a dot.
+Ensuring the integrity of your data is critical before proceeding with analysis.
+1. Validate Employee Ages:
+
+- Check the 'Age' column to ensure that all values fall within a reasonable range (e.g., between 18 and 65 years old).
+- Flag and correct any anomalies found.
+
+2. Check Email Format:
+
+- Implement a data validation rule to verify that all email addresses include an '@' symbol and a domain (e.g., .com, .org).
+- Highlight any incorrectly formatted emails for correction.
 
 ## Iteration 7: Data Analysis Using Lookup Functions
-- **Salary Analysis by Department**: Use `VLOOKUP` to create a table showing the salary range in each department.
+Now that the data is cleaned, you can begin performing basic analysis.
+
+1. Salary Analysis by Department:
+
+- Use the VLOOKUP function to create a summary table displaying the salary range for each department.
+- Ensure that the table provides meaningful insights into salary distribution across departments.
 
 ## Bonus
 
