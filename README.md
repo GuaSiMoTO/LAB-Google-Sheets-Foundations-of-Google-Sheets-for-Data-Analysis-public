@@ -99,4 +99,4 @@ To submit this LAB, upload the file to your forked repository.
 - [Conditional Formatting in Google Sheets](https://support.google.com/docs/answer/78413?hl=en)
 - [Google Sheets Formulas and Functions](https://support.google.com/docs/answer/3093197?hl=en)
 
-![Happy Coding](https://res.cloudinary.com/edukami-staging/image/upload/v1739975973/labImages/dytxhbiiyolvrbgipq4x.png)
+![Happy Coding](https://images-ext-1.discordapp.net/external/yCS9e-T4ZqwyrDeKZivDFuwoXfN2h5eWdr9eg6YedlU/https/res.cloudinary.com/edukami-staging/image/upload/v1739975973/labImages/dytxhbiiyolvrbgipq4x.png?format=webp&quality=lossless&width=1391&height=288)
