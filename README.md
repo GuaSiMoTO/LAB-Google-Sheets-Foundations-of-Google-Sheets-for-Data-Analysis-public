@@ -1,5 +1,7 @@
 # LAB-Google-Sheets-Foundations-of-Google-Sheets-for-Data-Analysis
 
+![Student LAB](https://images-ext-1.discordapp.net/external/dkBicrHzUxUqUh-WDRAkj8VQIBL8ggLQGcro1kmaSHA/https/res.cloudinary.com/edukami-staging/image/upload/v1739975930/labImages/cuerdenwd29wgrvn4m0j.png?format=webp&quality=lossless&width=1391&height=288)
+
 ## Introduction
 
 > ***Note:*** _This can be a pair programming activity or done independently._
@@ -62,8 +64,8 @@ Ensuring the integrity of your data is critical before proceeding with analysis.
 
 2. Check Email Format:
 
-- Implement a data validation rule to verify that all email addresses include an '@' symbol and a domain (e.g., .com, .org).
 - Highlight any incorrectly formatted emails for correction.
+- Implement a data validation rule to verify that all email addresses include an '@' symbol and a domain (e.g., .com, .org).
 
 ## Iteration 7: Data Analysis Using Lookup Functions
 Now that the data is cleaned, you can begin performing basic analysis.
@@ -96,3 +98,5 @@ To submit this LAB, upload the file to your forked repository.
 - [Google Sheets documentation](https://support.google.com/docs/topic/9054606?hl=en&ref_topic=1382883)
 - [Conditional Formatting in Google Sheets](https://support.google.com/docs/answer/78413?hl=en)
 - [Google Sheets Formulas and Functions](https://support.google.com/docs/answer/3093197?hl=en)
+
+![Happy Coding](https://res.cloudinary.com/edukami-staging/image/upload/v1739975973/labImages/dytxhbiiyolvrbgipq4x.png)
