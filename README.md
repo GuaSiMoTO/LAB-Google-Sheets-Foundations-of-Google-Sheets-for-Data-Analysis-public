@@ -75,7 +75,19 @@ Now that the data is cleaned, you can begin performing basic analysis.
 - Use the VLOOKUP function to create a summary table displaying the salary range for each department.
 - Ensure that the table provides meaningful insights into salary distribution across departments.
 
-## Bonus
+
+##  Iteration 7 - Searchbar with VLOOKUP
+
+Use the VLOOKUP function to search by member name and retrieve their full information.
+
+---
+
+##  Bonus 1
+
+Use the QUERY function to create a summary table displaying the salary range for each department.
+Ensure that the table provides meaningful insights into salary distribution across departments.
+
+## Bonus 2 
 
 ### Hint
 
