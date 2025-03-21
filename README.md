@@ -67,15 +67,6 @@ Ensuring the integrity of your data is critical before proceeding with analysis.
 - Highlight any incorrectly formatted emails for correction.
 - Implement a data validation rule to verify that all email addresses include an '@' symbol and a domain (e.g., .com, .org).
 
-## Iteration 7: Data Analysis Using Lookup Functions
-Now that the data is cleaned, you can begin performing basic analysis.
-
-1. Salary Analysis by Department:
-
-- Use the VLOOKUP function to create a summary table displaying the salary range for each department.
-- Ensure that the table provides meaningful insights into salary distribution across departments.
-
-
 ##  Iteration 7 - Searchbar with VLOOKUP
 
 Use the VLOOKUP function to search by member name and retrieve their full information.
