@@ -1,6 +1,6 @@
-# LAB-Google-Sheets-Foundations-of-Google-Sheets-for-Data-Analysis
-
 ![Student LAB](https://images-ext-1.discordapp.net/external/dkBicrHzUxUqUh-WDRAkj8VQIBL8ggLQGcro1kmaSHA/https/res.cloudinary.com/edukami-staging/image/upload/v1739975930/labImages/cuerdenwd29wgrvn4m0j.png?format=webp&quality=lossless&width=1391&height=288)
+
+# LAB-Google-Sheets-Foundations-of-Google-Sheets-for-Data-Analysis
 
 ## Introduction
 
@@ -67,15 +67,18 @@ Ensuring the integrity of your data is critical before proceeding with analysis.
 - Highlight any incorrectly formatted emails for correction.
 - Implement a data validation rule to verify that all email addresses include an '@' symbol and a domain (e.g., .com, .org).
 
-## Iteration 7: Data Analysis Using Lookup Functions
-Now that the data is cleaned, you can begin performing basic analysis.
+##  Iteration 7 - Searchbar with VLOOKUP
 
-1. Salary Analysis by Department:
+Use the VLOOKUP function to search by member name and retrieve their full information.
 
-- Use the VLOOKUP function to create a summary table displaying the salary range for each department.
-- Ensure that the table provides meaningful insights into salary distribution across departments.
+---
 
-## Bonus
+##  Bonus 1
+
+Use the QUERY function to create a summary table displaying the salary range for each department.
+Ensure that the table provides meaningful insights into salary distribution across departments.
+
+## Bonus 2 
 
 ### Hint
 
